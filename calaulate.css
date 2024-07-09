@@ -1,0 +1,81 @@
+
+
+h2{
+    color: rgb(255, 0, 0);
+}
+body{
+    margin: 10px 0px opx 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+    /* display: grid
+    place-item:center; */
+    background: linear-gradient(45deg, #0a0a0a,#3a4452);
+
+    
+
+} 
+
+/* Style for the calculator button */
+button {
+    background-color: #00fc15; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: -5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px; /* Rounded corners */
+}
+
+/* Change background color when hovered */
+button:hover {
+    background-color: #f50000;
+calculator{
+    padding: 50px;
+    box-shadow: 0 0 15px; #0000;
+    border: 3px solid; rbg(116,114,114);
+    border-radius: 100px;
+
+} 
+
+
+
+}
+table{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(206, 203, 203);
+    
+
+#display{
+    width: 50;
+    padding: 100px;
+    font-size: 3rem;
+    text-align: left;
+    border: none;
+
+}    
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: -5px;
+}
+.result{
+    background-color: red;
+}
